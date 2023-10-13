@@ -150,7 +150,7 @@ For example, to connect to a postgres database with psycopg2:
 3. configure [](JupyterHub.db_url):
 
    ```python
-   c.JupyterHub.db_url = "postgres+psycopg2://my-postgres-server:5432/my-db-name"
+   c.JupyterHub.db_url = "postgresql+psycopg2://my-postgres-server:5432/my-db-name"
    ```
 
 [psycopg2-binary]: https://www.psycopg.org/docs/install.html#psycopg-vs-psycopg-binary
